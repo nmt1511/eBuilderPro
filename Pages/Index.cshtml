@@ -1,0 +1,67 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<section class="hero-shell">
+    <div class="hero-copy">
+        <span class="eyebrow">eBuildFlow Pro</span>
+        <h1>Quản lý vật liệu xây dựng tập trung, rõ ràng và có thể mở rộng.</h1>
+        <p>
+            Nền tảng quản lý cho cửa hàng, đại lý và doanh nghiệp vật liệu xây dựng:
+            hàng hóa, kho, mua bán, công nợ, thu chi và báo cáo trên một hệ thống thống nhất.
+        </p>
+
+        <div class="hero-actions">
+            <a class="btn btn-primary" href="#foundation">Xem nền móng MVP</a>
+            <a class="btn btn-outline-light" href="#modules">Xem module lõi</a>
+        </div>
+    </div>
+
+    <div class="hero-stats" id="foundation">
+        <div class="stat-card">
+            <span class="stat-label">Trạng thái</span>
+            <strong>Sẵn sàng khởi tạo MVP</strong>
+            <small>Razor Pages .NET 8, nền tảng gọn để phát triển tiếp.</small>
+        </div>
+        <div class="stat-grid">
+            <div class="mini-card"><span>Kho</span><strong>Nhập - xuất - tồn</strong></div>
+            <div class="mini-card"><span>Tài chính</span><strong>Công nợ - thu chi</strong></div>
+            <div class="mini-card"><span>Quản trị</span><strong>Phân quyền - audit</strong></div>
+            <div class="mini-card"><span>Báo cáo</span><strong>Dashboard trực quan</strong></div>
+        </div>
+    </div>
+</section>
+
+<section class="content-grid" id="modules">
+    <article class="feature-card">
+        <h2>Phạm vi MVP</h2>
+        <ul>
+            <li>Danh mục vật tư và đơn vị tính</li>
+            <li>Nhập kho, xuất kho, điều chỉnh tồn</li>
+            <li>Mua hàng, bán hàng, khách hàng, nhà cung cấp</li>
+            <li>Công nợ, thu chi, báo cáo cơ bản</li>
+        </ul>
+    </article>
+
+    <article class="feature-card">
+        <h2>Hướng triển khai</h2>
+        <ul>
+            <li>Thiết kế database trước</li>
+            <li>Seed dữ liệu để chạy ngay lần đầu</li>
+            <li>Tách nghiệp vụ theo module</li>
+            <li>Giữ cấu trúc đủ đơn giản cho MVP</li>
+        </ul>
+    </article>
+
+    <article class="feature-card">
+        <h2>Giá trị cốt lõi</h2>
+        <ul>
+            <li>Tiết kiệm thao tác thủ công</li>
+            <li>Kiểm soát dòng hàng và dòng tiền</li>
+            <li>Hạn chế sai sót khi vận hành</li>
+            <li>Dễ mở rộng sang giai đoạn sau</li>
+        </ul>
+    </article>
+</section>

@@ -1,0 +1,32 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(18px);
+}
+
+.site-nav {
+  background: linear-gradient(90deg, #0f172a 0%, #12324f 50%, #164863 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.brand-mark {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.app-shell {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.site-footer {
+  padding: 1.25rem 0;
+  color: #cbd5e1;
+  background: #0f172a;
+}
+
+.site-footer a {
+  color: #e2e8f0;
+  text-decoration: none;
+}
